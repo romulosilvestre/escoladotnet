@@ -13,8 +13,68 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\Google-Classroom-Logo.png",
+      "PackagePath": "staticwebassets\\img\\Google-Classroom-Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\aws.png",
+      "PackagePath": "staticwebassets\\img\\aws.png"
+    },
+    {
+      "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\chaptgpt.png",
+      "PackagePath": "staticwebassets\\img\\chaptgpt.png"
+    },
+    {
+      "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\cisco.png",
+      "PackagePath": "staticwebassets\\img\\cisco.png"
+    },
+    {
+      "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\estantevirtual.png",
+      "PackagePath": "staticwebassets\\img\\estantevirtual.png"
+    },
+    {
+      "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\fapdf.png",
+      "PackagePath": "staticwebassets\\img\\fapdf.png"
+    },
+    {
+      "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\gdf.png",
+      "PackagePath": "staticwebassets\\img\\gdf.png"
+    },
+    {
+      "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\huawei.png",
+      "PackagePath": "staticwebassets\\img\\huawei.png"
+    },
+    {
+      "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\intelbras.png",
+      "PackagePath": "staticwebassets\\img\\intelbras.png"
+    },
+    {
+      "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\learn-icon.png",
+      "PackagePath": "staticwebassets\\img\\learn-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\logomarca_gdf.jpg",
+      "PackagePath": "staticwebassets\\img\\logomarca_gdf.jpg"
+    },
+    {
       "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\logoteste.PNG",
       "PackagePath": "staticwebassets\\img\\logoteste.PNG"
+    },
+    {
+      "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\microsoft.png",
+      "PackagePath": "staticwebassets\\img\\microsoft.png"
+    },
+    {
+      "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\oracle.png",
+      "PackagePath": "staticwebassets\\img\\oracle.png"
+    },
+    {
+      "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\senai-logo-1.png",
+      "PackagePath": "staticwebassets\\img\\senai-logo-1.png"
+    },
+    {
+      "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\img\\senaiplay.png",
+      "PackagePath": "staticwebassets\\img\\senaiplay.png"
     },
     {
       "Id": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\wwwroot\\js\\site.js",

@@ -1,17 +1,26 @@
-﻿<h4>Nossos Cursos</h4>
+﻿
+@{
+   var curso = ViewData["curso"] as Curso;
+}
+
+<h4>Nossos Cursos</h4>
 
 <div class="card text-bg-light mb-3" style="max-width: 18rem;">
-  <div class="card-header">@ViewData["nome"]</div>
+  <div class="card-header">@curso?.Nome</div>
   <div class="card-body">
-    <h5 class="card-title">@ViewData["titulo"]</h5>
-    <p class="card-text">@ViewData["descricao"]</p>
-   
+    <h5 class="card-title">@curso?.Titulo</h5>
+    <p class="card-text">@curso?.Descricao</p>   
   </div>
-  
   <div class="card-footer bg-transparent> 
-    <p class="card-text">@ViewData["ch"]</p>
+    <p class="card-text">Carga Horária: @curso?.CargaHoraria</p>
   </div>
 
 
 </div>
+
+<p>
+   <h6>Conteúdo Programático</h6>
+   @curso?.Conteudo
+
+</p>
 

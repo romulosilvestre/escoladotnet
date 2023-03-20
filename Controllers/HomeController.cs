@@ -15,9 +15,24 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        int ch =40;
+        var curso = new Curso(){
+           //Mock (dados de teste - fictício)
+           Id =1,
+           Nome = "Introdução à Programação",
+           Titulo = "Primeiros passos na programação",
+           Descricao = "Fundamentos de programação e algoritmos estruturados",
+           Perfil ="estudantes e aprendizes no geral",
+           PreRequisitos ="informática básica",
+           Conteudo = "1-introdução 2-lógica 3-estruturas 4-vetores 5-funções 6-matrizes 7-estruturas de dados 8-registros",
+           CargaHoraria = 40,
+           PrazoMeses = 1
+
+        };
+
+        ViewData["curso"] = curso;
+        //int ch =40;
         //Dicionário (ViewDataDictionary)
-        ViewData["nome"] ="TI Essencial";
+        /*ViewData["nome"] ="TI Essencial";
         ViewData["titulo"]="Uma visão geral da TI";
         ViewData["ch"] = $"Teremos {ch} horas de imersão nos fundamentos da TI";
         ViewData["descricao"] = "Nesse curso você vai aprender os primeiros passos na tecnologia da informação, conhecer o hardware, software, redes, protocolos e conhecimentos básicos para depois mergulhar no mundo do desenvolvimento de software da Microsoft";
@@ -28,8 +43,6 @@ public class HomeController : Controller
           Competência ViewData
           Competência ViewBag
           Competência TempData
-
-
 
         */
         return View();
