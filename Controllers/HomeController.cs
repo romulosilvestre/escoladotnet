@@ -1,8 +1,9 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using escoladotnet.Models;
+using EscolaDotNet.Models;
+using EscolaDotNet.ViewModels;
 
-namespace escoladotnet.Controllers;
+namespace EscolaDotNet.Controllers;
 
 public class HomeController : Controller
 {
@@ -15,8 +16,14 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var curso = new Curso(){
+        //var - declaração da variável
+        //new - operador de instanciação
+        //Curso( ) - chamada ao Construtor da classe Curso
+        //Construtor - construir o objeto na memória.
+       
+        var curso = new Curso(){ //
            //Mock (dados de teste - fictício)
+           //Propriedades automáticas
            Id =1,
            Nome = "Introdução à Programação",
            Titulo = "Primeiros passos na programação",
@@ -28,8 +35,11 @@ public class HomeController : Controller
            PrazoMeses = 1
 
         };
-
-        ViewData["curso"] = curso;
+        //ViewDataDictionary
+        //chave - valor
+    //    ViewData["curso"] = curso; //recurso de chave : valor
+        ViewBag.Curso = curso;
+        TempData["mensagem"] ="Mensagem vinda da Action Index";
         //int ch =40;
         //Dicionário (ViewDataDictionary)
         /*ViewData["nome"] ="TI Essencial";
@@ -45,10 +55,54 @@ public class HomeController : Controller
           Competência TempData
 
         */
+
+
+        /*
+           TempData[] - a diferença do TempData para ViewData[] e ViewBag é que a primeira mantém o valor dentro da sessão
+
+           *Bradesco
+           *ToTvs
+           *Itau
+           *
+
+       
+        */
+        return View(); //View página web (*resposta)
+    }
+
+    public IActionResult Mensagem(){
         return View();
     }
 
-   
+    public IActionResult ViewModel(){
+      //copie e cole o curso da outra Action pois já tinhamos criado
+
+       var curso = new Curso(){ //
+           //Mock (dados de teste - fictício)
+           //Propriedades automáticas
+           Id =1,
+           Nome = "Introdução à Programação",
+           Titulo = "Primeiros passos na programação",
+           Descricao = "Fundamentos de programação e algoritmos estruturados",
+           Perfil ="estudantes e aprendizes no geral",
+           PreRequisitos ="informática básica",
+           Conteudo = "1-introdução 2-lógica 3-estruturas 4-vetores 5-funções 6-matrizes 7-estruturas de dados 8-registros",
+           CargaHoraria = 40,
+           PrazoMeses = 1
+
+        };
+        var viewModel = new DetalhesCursoViewModel
+        {
+            Curso = curso,
+            TituloPagina = "Detalhes do Curso"
+            
+        };
+        return View(viewModel); //passar um objeto pra view
+        //ViewData[]- nãoaoaoaaoaoaaoaoao
+        //ViewBag -naãoaoaoaoaoaoa
+        //TempData[ ] d------
+        //ViewModel ---sismsmkssssk
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

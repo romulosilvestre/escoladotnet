@@ -1,6 +1,10 @@
 ﻿
 @{
-   var curso = ViewData["curso"] as Curso;
+  //as Curso é o tipo
+  //as int
+  //as (tipagem de dados)
+  // var curso = ViewData["curso"] as Curso; //chave é curso
+  var curso = ViewBag.Curso; //recurso novo Dynamic - fracamente tipado.
 }
 
 <h4>Nossos Cursos</h4>

@@ -1,4 +1,4 @@
-namespace escoladotnet.Models;
+namespace EscolaDotNet.Models;
 
 public class ErrorViewModel
 {

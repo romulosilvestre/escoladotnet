@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\escoladotnet.csproj": {}
+    "C:\\Users\\romul\\source\\senai\\recprof\\EscolaDotNet\\escoladotnet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\escoladotnet.csproj": {
+    "C:\\Users\\romul\\source\\senai\\recprof\\EscolaDotNet\\escoladotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\escoladotnet.csproj",
+        "projectUniqueName": "C:\\Users\\romul\\source\\senai\\recprof\\EscolaDotNet\\escoladotnet.csproj",
         "projectName": "escoladotnet",
-        "projectPath": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\escoladotnet.csproj",
-        "packagesPath": "C:\\Users\\PROFESSOR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PROFESSOR\\Desktop\\escolasenai\\escoladotnet\\obj\\",
+        "projectPath": "C:\\Users\\romul\\source\\senai\\recprof\\EscolaDotNet\\escoladotnet.csproj",
+        "packagesPath": "C:\\Users\\romul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\romul\\source\\senai\\recprof\\EscolaDotNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PROFESSOR\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\romul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
